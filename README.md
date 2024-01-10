@@ -3,7 +3,7 @@
 function PreencherDev: TDesenvolvedor;
 var Conhecimento: TConhecimento;
 begin
-  Result := TDeveloper.create;
+  Result := TDesenvolvedor.create;
   Result.Nome := "Rafael Gustavo Semenzin";
   Result.Area := "Desenvolvedor";
   Result.Trabalho := "Rac Systems";
